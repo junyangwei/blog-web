@@ -1,9 +1,44 @@
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Hello, world!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- 首页 CSS -->
+    <link rel="stylesheet" href="styles/index.css">
+    <title>首页</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!-- 首页顶部导航栏 -->
+    <div class="fixed-top container-fluid">
+      <div class="row">
+        <div class="col">
+          <a class="navbar-brand" href="#">待定</a>
+        </div>
+        <div class="col-6">
+          <div class="input-group mb-7">
+            <input type="text" placeholder="搜索...">
+            <button class="btn btn-outline-secondary" type="button" id="search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            </button>
+        </div>
+        </div>
+        <div class="col" style="text-align: right;">
+          <button type="button" class="btn btn-outline-light">登陆</button>
+        </div>
+      </div>
+    </div>
+
+    <div ></div>
+
+    <!-- 底部信息 -->
+    <div class="fixed-bottom">
+      <p class="feed-back">反馈：2429841091@qq.com</p>
+      <p class="creators-info">By JunYang&JunHao</p>
+    </div>
   </body>
 </html>

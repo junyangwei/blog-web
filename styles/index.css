@@ -1,0 +1,60 @@
+body {
+  /* 设置背景图片为星空图，自适应伸缩 */
+  background: url('../images/stars.jpg') no-repeat center center;
+  /* 设置背景图全覆盖 */
+  background-size: cover;
+  /* 设置背景颜色为黑色（图片还未渲染出来时展示黑色） */
+  background-color: black;
+}
+
+/* 设置顶部导航栏 */
+.fixed-top {
+  /* 背景颜色为黑色 */
+  background-color: black;
+}
+
+/* 设置首页Logo */
+.navbar-brand {
+  /* 字体颜色为白色 */
+  color: white;
+  font-size: 24px;
+}
+
+/* 设置输入框样式 */
+input {
+  /* 内边距上下 左右分别为5 10 */
+  padding: 5px 10px;
+  /* 输入框内字体大小限定为16像素 */
+  font-size: 16px;
+  /* 宽占块的80% */
+  width: 80%;
+  /* 设置边框属性为 1像素宽 实线 亮灰色 */
+  border: 1px solid LightSlateGray;
+  /* 设置输入框圆角边框为4像素 */
+  border-radius: 4px;
+  /* 设置背景颜色为灰色 */
+  background-color: rgba(46,55,74,.82);
+  /* 设置文字颜色为白色 */
+  color: white;
+}
+
+/* 设置底部栏 */
+.fixed-bottom {
+  /* 背景颜色为黑色 */
+  background-color: black;
+}
+
+/* 设置反馈样式 */
+.feed-back {
+  /* 字体颜色为白色 */
+  color:white;
+  /* 同一行排列在最左边 */
+  float: left;
+}
+
+/* 设置作者信息 */
+.creators-info {
+  color:rgb(158, 158, 158);
+  /* 同一行排列在最右边 */
+  float: right;
+}
