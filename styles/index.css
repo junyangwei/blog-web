@@ -27,7 +27,7 @@ input {
   /* 输入框内字体大小限定为16像素 */
   font-size: 16px;
   /* 宽占块的80% */
-  width: 80%;
+  width: 75%;
   /* 设置边框属性为 1像素宽 实线 亮灰色 */
   border: 1px solid LightSlateGray;
   /* 设置输入框圆角边框为4像素 */
@@ -36,6 +36,16 @@ input {
   background-color: rgba(46,55,74,.82);
   /* 设置文字颜色为白色 */
   color: white;
+}
+
+/* 设置文章简介样式 */
+.p-3 {
+  /* 字体颜色为白色 */
+  color: white;
+  /* 背景颜色为深海篮 */
+  background-color: rgb(9, 9, 40);
+  /* 设置圆角边框 */
+  border-radius: 4px;
 }
 
 /* 设置底部栏 */
